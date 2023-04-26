@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.banner{
+	background: linear-gradient(#ffffff14,#ffffff1c),url("../images/coffee.jpg");
+	width:100%;
+	height:80vh;
+	background-size:cover;
+	padding:230px 0;
+	background-position:top;
+	display:flex;
+	align-items:center;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.container h1{
+	font-size:66px;
+	color:#ffff;
+	width:60vw;
+	font-weight:900;
+	line-height:75px;
+}
+.container p{
+	font-family: 'Poppins', sans-serif;
+	color:#ffff;
+	padding:10px 0;
+}
+a{
+	width:12%;
+	color:#ffff;
+	padding:10px 20px;
+	text-decoration:none;
+	border:1px solid #ffff;
+	font-weight:500;
+}
+.banner-bottom{
+	padding:25px 0;
+	display:flex;
+	gap:5%;
+}
